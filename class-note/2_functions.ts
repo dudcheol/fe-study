@@ -13,3 +13,4 @@ function add(): number {
 function sum2(a: number, b: number): number {
     return a + b;
 }
+sum2(10, 20, 30, 40); // 2개의 인수가 필요한데 4개를 가져오고 있음
