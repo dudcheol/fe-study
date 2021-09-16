@@ -44,3 +44,16 @@ const login = logText<boolean>(true);
 
 // logText('a');
 // logText(10);
+
+// 인터페이스에 제네릭을 선언하는 방법
+// interface Dropdown {
+//     value: string;
+//     selected: boolean;
+// }
+// const obj: Dropdown = { value: 'abc', selected: false};
+
+interface Dropdown<T> {
+    value: T;
+    selected: boolean;
+}
+const obj: Dropdown<string> = { value: 'abc', selected: false };
