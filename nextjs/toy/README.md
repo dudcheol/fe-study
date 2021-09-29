@@ -26,5 +26,5 @@
 
 
 ### 출처
-https://jcon.tistory.com/124
-https://github.com/vercel/next-learn-demo
+- https://jcon.tistory.com/124
+- https://github.com/vercel/next-learn-demo
