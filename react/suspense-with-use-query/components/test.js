@@ -10,14 +10,12 @@ export const TestComponent = () => {
       console.log(JSON.stringify(result));
       return result;
     },
-    {
-      suspense: true,
-    }
+    { suspense: true }
   );
 
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <div>{data}</div>
+      <div>{JSON.stringify(data)}</div>
     </Suspense>
   )
 };
